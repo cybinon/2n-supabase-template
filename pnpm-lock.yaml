@@ -167,6 +167,16 @@ importers:
       eslint-config-prettier: 8.6.0_eslint@8.33.0
       eslint-plugin-react: 7.29.3_eslint@8.33.0
 
+  packages/utils:
+    specifiers:
+      eslint-config-next: ^12.1.0
+      eslint-config-prettier: ^8.5.0
+      eslint-plugin-react: 7.29.3
+    dependencies:
+      eslint-config-next: 12.3.4_4vsywjlpuriuw3tl5oq6zy5a64
+      eslint-config-prettier: 8.6.0_eslint@8.33.0
+      eslint-plugin-react: 7.29.3_eslint@8.33.0
+
 packages:
 
   /@ampproject/remapping/2.2.0:

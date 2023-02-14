@@ -12,7 +12,7 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "linker": "rm -rf api && ln -s apps/server api"
+    "config:env": "node packages/utils/generate.environment.js"
   },
   "keywords": [],
   "author": "",
